@@ -1,0 +1,154 @@
+body {
+    font-family: Comic Sans MS, sans-serif;
+    background-image: url('../img/background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #79caf9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pokecard {
+    background-color: #ffffffa8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.evoluciones {
+    list-style: none;
+    padding: 0;
+}
+
+.evoluciones li {
+    margin: 5px 0;
+}
+
+
+#pokeimg {
+    max-width: 100%;
+}
+
+#pokemon {
+    margin: 10px 0;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#busqueda {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#boton-busqueda {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff003e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#boton-busqueda:hover {
+    background-color: #c3002f;
+}
+
+/* colores para los tipos de pokemon */
+.water {
+    border: 10px solid #3498db; 
+}
+
+.fire {
+    border: 10px solid #FF2300;
+}
+
+.grass {
+    border: 10px solid #2ecc71;
+}
+
+.electric{
+    border: 10px solid #EDED23;
+}
+
+.ice{
+    border: 10px solid #D9F4FA;
+}
+
+.poison{
+    border: 10px solid #0CFF00;
+}
+
+.ground{
+    border: 10px solid #927D4B;
+}
+
+.flying{
+    border: 10px solid #C1C1C1;
+}
+
+.psychic{
+    border: 10px solid #A916D5;
+}
+
+.bug{
+    border: 10px solid #2DA30D;
+}
+
+.rock{
+    border: 10px solid #4A4A4A;
+}
+
+.ghost{
+    border: 10px solid #CDCDCD;
+}
+
+.steel{
+    border: 10px solid #8A9BA6;
+}
+
+.fairy{
+    border: 10px solid #F749FF;
+}
+
+.dark{
+    border: 10px solid #000000;
+}
+
+.normal{
+    border: 10px solid #FFFFFF;
+}
+
+.dragon{
+    border: 10px solid #F58821;
+}
+
+.fighting{
+    border: 10px solid #A32424;
+}
